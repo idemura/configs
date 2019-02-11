@@ -6,7 +6,7 @@
   br = branch
   st = status -s
   ci = commit
-  am = commit --amend -a --no-edit
+  amend = commit --amend -a --no-edit
   uncom = reset HEAD~1
   pr = pull -r
   re = rebase -i
