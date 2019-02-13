@@ -1,26 +1,28 @@
 [alias]
-  meld = !/home/$USER/bin/git-meld.pl
-  sh = stash
-  co = checkout
-  cp = cherry-pick
-  br = branch
-  st = status -s
-  ci = commit
-  amend = commit --amend -a --no-edit
-  uncom = reset HEAD~1
-  pr = pull -r
-  re = rebase -i
-  recon = rebase --continue
-  reabt = rebase --abort
-  last = log -1
-  aa = add -u
-  ps = push
+	meld = !/home/$USER/bin/git-meld.pl
+	sh = stash
+	co = checkout
+	cp = cherry-pick
+	br = branch
+	st = status -s
+	ci = commit
+	amend = commit --amend -a --no-edit
+	uncom = reset HEAD~1
+	pr = pull -r
+	re = rebase -i
+	recon = rebase --continue
+	reabt = rebase --abort
+	last = log -1
+	aa = add -u
+	ps = push
+[pager]
+	branch = false
 [user]
-  name = Igor Demura
-  email = igor.demura@gmail.com
+	name = Igor Demura
+	email = igor.demura@gmail.com
 [push]
-  default = simple
+	default = simple
 [credential]
-  helper = cache --timeout=3600
+	helper = cache --timeout=3600
 [credential "https://github.com"]
-  username = idemura
+	username = idemura
