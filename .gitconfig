@@ -5,7 +5,7 @@
 	cp = cherry-pick
 	br = branch
 	st = status -s -uno
-    st-all = status -s
+	st-all = status -s
 	ci = commit
 	amend = commit --amend -a --no-edit
 	uncom = reset HEAD~1
