@@ -1,5 +1,5 @@
 [alias]
-	meld = !/home/$USER/bin/git-meld.pl
+	meld = !$HOME/bin/git-meld.pl
 	sh = stash
 	co = checkout
 	cp = cherry-pick
@@ -11,8 +11,8 @@
 	uncom = reset HEAD~1
 	pr = pull -r
 	re = rebase -i
-	recon = rebase --continue
-	reabt = rebase --abort
+	re-con = rebase --continue
+	re-abt = rebase --abort
 	last = log -1
 	aa = add -u
 	ps = push
