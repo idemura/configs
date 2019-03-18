@@ -38,3 +38,6 @@
 '.platform-darwin atom-text-editor':
   'cmd-d': 'editor:duplicate-lines'
   'shift-cmd-D': 'find-and-replace:select-next'
+
+'.tree-view':
+  'r': 'tree-view:move'
