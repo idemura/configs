@@ -14,6 +14,7 @@
 	re-con = rebase --continue
 	re-abt = rebase --abort
 	last = log -1
+	resh = reset --hard
 	aa = add -u
 	ps = push
 [pager]
