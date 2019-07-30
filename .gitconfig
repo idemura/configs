@@ -7,7 +7,7 @@
 	st = status -s -uno
 	st-all = status -s
 	ci = commit
-	amend = commit --amend -a --no-edit
+	amend = commit --amend --no-edit
 	uncom = reset HEAD~1
 	pr = pull -r
 	re = rebase -i
