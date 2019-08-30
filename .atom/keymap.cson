@@ -41,3 +41,6 @@
 
 '.tree-view':
   'r': 'tree-view:move'
+
+'.platform-darwin, .platform-win32, .platform-linux':
+  'ctrl-l': 'go-to-line:toggle'
