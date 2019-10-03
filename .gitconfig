@@ -17,6 +17,7 @@
 	resh = reset --hard
 	aa = add -u
 	ps = push
+	rmbr = branch -D
 [pager]
 	branch = false
 [user]
