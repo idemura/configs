@@ -1,5 +1,5 @@
 #! /bin/bash
 
-ST3_HOME="$HOME/Library/Application Support/Sublime Text 3"
-cp "$ST3_HOME/Packages/User/Preferences.sublime-settings" .
+ST3_USER="$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+find "$ST3_USER" -type f -name '*.sublime-*' -exec cp {} . \;
 
