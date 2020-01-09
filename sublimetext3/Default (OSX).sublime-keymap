@@ -1,5 +1,5 @@
 [
-	{
+  {
     "keys": ["home"],
     "command": "move_to",
     "args": {"to": "bol"}
