@@ -43,5 +43,9 @@
     "keys": ["super+l"],
     "command": "show_overlay",
     "args": {"overlay": "goto", "text": ":"}
+  },
+  {
+    "keys": ["super+t"],
+    "command": "pass"
   }
 ]
