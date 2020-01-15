@@ -1,6 +1,6 @@
 # Configs
 
-## Color PS1
+## Color Command Line Prompt
 ```
 # bash
 export CLICOLOR=1
